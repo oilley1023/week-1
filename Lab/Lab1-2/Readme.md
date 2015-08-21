@@ -5,10 +5,11 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
-
+* Three functions: 5f119757a0
+* Get input from command line: 4fd96689 
+Name : patsamon boonchai
+ 570611023
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: it can run only one time.
