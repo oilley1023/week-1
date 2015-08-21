@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer:If -else use for Factorial funtion ,it keep the vaiable not return zero when the number is Zero.
 
 
 # Resources
