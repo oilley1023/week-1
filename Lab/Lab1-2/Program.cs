@@ -10,17 +10,25 @@ namespace Lab1_2
     {
         static void Main(string[] args)
         {
-            funtion tmp = new funtion();
-            tmp.input();
-
+            BubbleSortFunction tmp = new BubbleSortFunction();
+            int[] XX = tmp.input();
+            tmp.process(XX);
+            tmp.output(XX);
+            Console.ReadLine();
         }
-    }
-    class funtion
-    {
-        public void input()
+        public int[] input()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            process(input);
+           // int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            int tmp;
+            Console.WriteLine("Enter the size : ");
+            tmp = Convert.ToInt32(Console.ReadLine());
+            int[] number = new int[tmp];
+
+            for (int i = 0; i < tmp; i++)
+            {
+                number[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            return number; 
         }
         public void process(int[] input)
         {
@@ -39,7 +47,7 @@ namespace Lab1_2
                     }
                 }
             }
-            output(input);
+            
         }
         public void output(int[] input)
         {
@@ -48,7 +56,7 @@ namespace Lab1_2
                 Console.Write(input[i]);
                 Console.Write(" ");
             }
-            Console.ReadKey();
+            
         }
 
     }
