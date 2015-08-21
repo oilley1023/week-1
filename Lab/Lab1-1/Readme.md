@@ -36,3 +36,6 @@ Answer: Flag variable check for the answer that if the result is return "true" i
 
 Answer: The program will run faster, without while loop
 but we will get the wrong answer.
+
+
+5. The  ANSWER IS 5 4 8 9 2 2 4 3 1 1 
