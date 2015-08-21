@@ -14,23 +14,25 @@ namespace Lab1_1
 
             // input
             int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-
+            int a = 0;
             // process
             while (flag)
             {
                 flag = false;
                 for (int i = 0; i != input.Length - 1; i++)
                 {
-                    if (input[i] > input[i + 1])
+                    if (input[i] < input[i + 1]) // ///from Change the code such that it will sort from larger to smaller "we change  > to < for the answer  larger to smaller.
                     {
                         int temp = input[i];
                         input[i] = input[i + 1];
                         input[i + 1] = temp;
                         flag = true;
+
+                        a++;
                     }
                 }
             }
-
+            Console.WriteLine(a);
             // output
             for (int i = 0; i != input.Length; i++)
             {
